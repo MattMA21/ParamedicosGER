@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff; 
+}
+#c1{
+    background-image: url('/resources/Img/WhatsApp\ Image\ 2024-10-02\ at\ 4.12.57\ PM\ \(1\).jpeg');
+     background-repeat:no-repeat;
+}
+.navbar {
+   
+    .navbar-brand, .nav-link {
+    color: #FFA500; /* Naranja */
+}
+.hero {
+    background-color: #FFA500; /* Naranja */
+    color: white;
+    padding: 10px ;
+}
+.footer {
+    background-color: #212529; /* Negro */
+    color: white;
+   
+}
+.service-card {
+    transition: transform 0.2s;
+}
+.service-card:hover {
+    transform: scale(1.05);
+}

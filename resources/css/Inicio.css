@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa; /* Fondo suave */
+}
+.navbar {
+    background-color: #212529; /* Negro */
+}
+.navbar-brand, .nav-link {
+    color: #FFA500; /* Naranja */
+}
+.hero {
+    background-color: #FFA500; /* Naranja */
+    color: white;
+    padding: 60px 0;
+}
+.footer {
+    background-color: #212529; /* Negro */
+    color: white;
+    padding: 20px 0;
+}
+.service-card {
+    transition: transform 0.2s;
+}
+.service-card:hover {
+    transform: scale(1.05);
+}
