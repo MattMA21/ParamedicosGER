@@ -1,0 +1,15 @@
+
+
+let index = 0;
+
+function MoverBa(){
+    const slides = document.querySelectorAll('.slide')
+    slides.forEach((slide)=>{
+       slide.classList.remove('active');
+    });
+
+    slides[index].classList.add('active');
+
+    index = (index+ 1) % slides.length;
+}
+setInterval(MoverBa, 3000);

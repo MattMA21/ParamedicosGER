@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.navbar-brand, .nav-link{
+    color: white;
+}
+.navbar-brand .nav-link.active{
+    font-weight: bold;
+}
+
+h2{
+    position: relative;
+    z-index: 20;
+    color: rgb(0, 0, 0);
+}
+.carousel-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    z-index: 0;
+    overflow: hidden;
+}
+.carousel {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.slide  {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5 ease;
+}
+  
+.slide.active{
+    opacity: 1;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Cont1{
+    height: 450px;
+    width: 1000px;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+.card{
+    width: 200px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: opx 10px 30px -5px rgb(0,0,0,0.8);
+}
+.card > .row{
+    color:white ;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.card > .row > .icon{
+    background:#FFA500 ;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+    align-items: center;
+    margin: 15px;
+}
+input{
+     display: none;
+}
+
+input:checked + label{
+    width: 500px;
+}
+
+.card[ for="c1"]{
+    background-image: url('/resources/Img/imgGrupoE/WhatsApp-Image-2024-04-04-at-8.42.19-PM-1-768x1024.webp');
+}
+.card[ for="c2"]{
+    background-image: url('/resources/Img/imgGrupoE/WhatsApp-Image-2024-04-04-at-8.42.19-PM-1-768x1024.webp');
+}
+.card[ for="c3"]{
+    background-image: url('/resources/Img/imgGrupoE/WhatsApp-Image-2024-04-04-at-8.42.19-PM-1-768x1024.webp');
+}
+.card[ for="c4"]{
+    background-image: url('/resources/Img/imgGrupoE/WhatsApp-Image-2024-04-04-at-8.42.19-PM-1-768x1024.webp');
+}
+.card[ for="c5"]{
+    background-image: url('/resources/Img/imgGrupoE/WhatsApp-Image-2024-04-04-at-8.42.19-PM-1-768x1024.webp');
+}
+.card[ for="c6"]{
+    background-image: url('/resources/Img/imgGrupoE/WhatsApp-Image-2024-04-04-at-8.42.19-PM-1-768x1024.webp');
+}
+  
